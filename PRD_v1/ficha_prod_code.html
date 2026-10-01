@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>NovaStore</title><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-background":"#131b2e","surface-container-highest":"#dae2fd","on-primary-fixed":"#001453","inverse-on-surface":"#eef0ff","on-error":"#ffffff","tertiary":"#4c2e00","surface-container":"#eaedff","outline":"#757684","surface-container-high":"#e2e7ff","on-secondary":"#ffffff","outline-variant":"#c4c5d5","primary-container":"#1e40af","surface-variant":"#dae2fd","on-surface":"#131b2e","on-error-container":"#93000a","secondary-container":"#82f5c1","error-container":"#ffdad6","primary-fixed":"#dde1ff","surface-tint":"#3755c3","surface":"#faf8ff","primary":"#00288e","on-tertiary":"#ffffff","on-tertiary-fixed-variant":"#653e00","error":"#ba1a1a","surface-dim":"#d2d9f4","primary-fixed-dim":"#b8c4ff","secondary-fixed":"#85f8c4","surface-container-low":"#f2f3ff","surface-container-lowest":"#ffffff","background":"#faf8ff","tertiary-fixed-dim":"#ffb95f","tertiary-container":"#6b4200","on-secondary-fixed-variant":"#005137","on-tertiary-container":"#ffa929","on-tertiary-fixed":"#2a1700","inverse-surface":"#283044","on-secondary-container":"#00714e","on-secondary-fixed":"#002114","on-primary":"#ffffff","secondary-fixed-dim":"#68dba9","tertiary-fixed":"#ffddb8","on-surface-variant":"#444653","inverse-primary":"#b8c4ff","on-primary-fixed-variant":"#173bab","surface-bright":"#faf8ff","secondary":"#006c4a","on-primary-container":"#a8b8ff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-sm":"1rem","space-sm":"0.5rem","space-lg":"1.5rem","space-md":"1rem","margin":"2rem","gutter":"1.5rem","space-xl":"2.5rem","space-xs":"0.25rem","margin-sm":"1rem"},"fontFamily":{"price-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"price-md":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"display":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"display-mobile":["Plus Jakarta Sans"]},"fontSize":{"price-lg":["24px",{"lineHeight":"28px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"price-md":["18px",{"lineHeight":"22px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.015em","fontWeight":"700"}],"display":["48px",{"lineHeight":"56px","letterSpacing":"-0.025em","fontWeight":"800"}],"label-md":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"display-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"800"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-28 max-w-7xl mx-auto px-gutter flex flex-col justify-between pt-3 pb-2"><div class="flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md shrink-0"><img alt="NovaStore Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHNrwVwxPgig2abyaYFPfd5wNtdlRnAemVsGrJD1UDFuIQ1hnGUeGcs-xdyCWEhZQ5SmGLleILwlqPyHM3iTjPH4UcBK29L1Pjn05b9fyVY_ooX5z5b-LRKumcpsNPzWTAiR7razNxnKCp3R0H_nRhbMIHpbGdsV4t_KBlbYlzxh_wLktA8QXiM2fJTTByND0it4iYln3HTFCu0Ank_rRNw3WWUxB9nl1BgdmiYSMwwAyHhingJOB3"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">NovaStore</span></div><div class="flex-1 max-w-2xl hidden md:flex items-center bg-surface-container-low rounded-lg p-1.5 focus-within:ring-2 focus-within:ring-primary-container transition-all"><select class="bg-transparent font-label-sm text-label-sm text-on-surface-variant px-space-sm py-1 border-none focus:outline-none cursor-pointer"><option>Todas las Categorías</option><option>Tecnología</option><option>Hogar</option><option>Moda</option><option>Deportes</option></select><div class="h-5 w-px bg-outline-variant mx-1"></div><input class="w-full bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-outline px-space-sm focus:outline-none" placeholder="Buscar marcas, modelos, SKU..." type="text"/><button aria-label="Buscar" class="bg-primary text-on-primary p-1.5 rounded-lg flex items-center justify-center hover:bg-primary-container transition-colors"><span class="material-symbols-outlined text-[18px]">search</span></button></div><div class="flex items-center gap-space-md shrink-0"><div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-1 rounded-lg"><span class="material-symbols-outlined text-[16px] text-on-surface-variant">payments</span><select aria-label="Selector de Moneda" class="bg-transparent font-label-sm text-label-sm text-on-surface focus:outline-none cursor-pointer"><option value="USD">USD ($)</option><option value="LOCAL">COP ($)</option><option value="EUR">EUR (€)</option></select></div><a class="hidden xl:flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" data-path="rastrear-pedido" href="#"><span class="material-symbols-outlined text-[18px]">local_shipping</span><span>#PED</span></a><a class="hidden lg:flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" data-path="admin-dashboard" href="#"><span class="material-symbols-outlined text-[18px]">admin_panel_settings</span><span>Backoffice</span></a><div class="h-6 w-px bg-surface-container hidden sm:block"></div><a aria-label="Ver Carrito" class="relative p-2 bg-surface-container-low hover:bg-surface-container rounded-lg text-on-surface flex items-center transition-colors" data-path="carrito-de-compras" href="#"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span class="absolute -top-1 -right-1 bg-secondary text-on-secondary font-label-sm text-[10px] w-4 h-4 rounded-full flex items-center justify-center font-bold">3</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div><nav class="flex items-center gap-space-sm overflow-x-auto py-1 scrollbar-none" data-active-classes="bg-primary-container text-on-primary-container font-bold rounded-lg"><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-1 rounded transition-colors whitespace-nowrap" data-path="catalogo-general" href="#">Catálogo Completo</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-1 rounded transition-colors whitespace-nowrap" data-path="tecnologia" href="#">Tecnología</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-1 rounded transition-colors whitespace-nowrap" data-path="hogar" href="#">Hogar</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-1 rounded transition-colors whitespace-nowrap" data-path="moda-y-accesorios" href="#">Moda &amp; Accesorios</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-1 rounded transition-colors whitespace-nowrap" data-path="deportes" href="#">Deportes</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-1 rounded transition-colors whitespace-nowrap" data-path="ofertas-flash" href="#">Ofertas Flash</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-1 rounded transition-colors whitespace-nowrap" data-path="nuevos-ingresos" href="#">Nuevos Ingresos</a></nav></div></header><main class="w-full pt-28 bg-surface min-h-[calc(100vh-14rem)]"><div class="flex flex-col w-full">
+<!-- Micro Breadcrumb & Meta Bar -->
+<div class="w-full bg-surface-container-low py-space-sm px-gutter">
+<div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-y-2">
+<nav aria-label="Breadcrumb" class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<a class="hover:text-primary transition-colors" href="#">Inicio</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Catálogo</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Tecnología &amp; Audio</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-on-surface font-bold truncate max-w-xs md:max-w-md">Auriculares Inalámbricos Pro ANC</span>
+</nav>
+<!-- SEO JSON-LD Micro Indicator -->
+<div class="flex items-center gap-2 bg-surface-container-lowest px-2.5 py-1 rounded-full shadow-sm">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase font-bold text-[10px]">Schema.org / JSON-LD Validado</span>
+<span class="material-symbols-outlined text-[14px] text-secondary">verified</span>
+</div>
+</div>
+</div>
+<!-- Main Product Detail Canvas -->
+<div class="max-w-7xl mx-auto px-gutter py-space-xl w-full">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- LEFT: Media Showcase & Interactive Gallery (7 cols) -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<!-- Main Stage Container -->
+<div class="relative w-full aspect-square md:aspect-[4/3] bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex items-center justify-center group cursor-crosshair">
+<img alt="Auriculares Inalámbricos Pro ANC" class="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105" data-alt="Premium sleek matte graphite over-ear wireless headphones with noise cancelling technology, floating on a minimal clean studio backdrop with soft atmospheric blue reflections, high definition commercial product photography, dramatic gentle shadows." id="main-product-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYPctAQ9GCTjpTITAnpjBVQboZfDYsPBUDGbAYOtSga6M9EPgumRGWGiAehfOpJb6zCGNAY7D9_o5H9LTHoJnsb0Suz-4ZOAJyZkiolQyowE_PirDXW9h3RKggklVuXPrzzeuf-CkPARzH_TMf-BTjhWOuUsZI89Q2uma4O53ZaS6U7gB9qyHinCE6krb3SB0NJRQPL94aM5p2cV43s1RNtVhDx_O6K75mGVWPiBVrdGTinZsXN1im"/>
+<!-- Floating Badges Layer -->
+<div class="absolute top-4 left-4 flex flex-col gap-2 z-10 pointer-events-none">
+<span class="bg-secondary text-on-secondary font-label-md text-label-md px-3 py-1 rounded-full shadow-md font-bold tracking-tight inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">local_offer</span>
+              Oferta -22%
+            </span>
+<span class="bg-surface-container-lowest/95 backdrop-blur-md text-secondary font-label-sm text-label-sm px-3 py-1 rounded-full shadow-sm font-semibold inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">electric_bolt</span>
+              Despacho Hoy Mismo
+            </span>
+</div>
+<!-- Zoom 4K Pill Trigger -->
+<div class="absolute bottom-4 right-4 bg-inverse-surface/85 backdrop-blur-md text-inverse-on-surface px-3 py-1.5 rounded-full font-label-sm text-label-sm flex items-center gap-1.5 shadow-lg opacity-90 transition-opacity hover:opacity-100">
+<span class="material-symbols-outlined text-[16px]">zoom_in</span>
+<span>Zoom 4K Ultra-Fidelidad</span>
+</div>
+</div>
+<!-- Thumbnails Reel -->
+<div class="grid grid-cols-4 gap-space-sm" id="thumb-gallery">
+<button class="gallery-thumb-btn relative aspect-square rounded-lg overflow-hidden bg-surface-container-low shadow-sm ring-2 ring-primary transition-all p-1" onclick="switchMedia(this, 'graphite')" type="button">
+<img alt="Vista frontal grafito" class="w-full h-full object-cover rounded" data-alt="Matte graphite black wireless ANC headphones front three quarter view with soft ambient lighting on crisp neutral studio surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7fq_8cGIawW0bvKohc050g017k6znmdBefaSJ9c5nLP7vv2mYb2bu78weZZDpH4rQRplLwUjCeKhvngT3LoGW-mOhNGUEQgwK1nutyDPhbEIextFWJ3F_JFFzNellsWng6ugBH1xhSJrhd2CcxFtsZcgF6HO9Y4c4sLKGD_5qKw4IhGNxgWq8uZbov3NbxGlO1hd1ZLYcQIUW4RiHITiWWZFdXsdTEaLwfJFjIwNQIh0FO14CJSL2"/>
+</button>
+<button class="gallery-thumb-btn relative aspect-square rounded-lg overflow-hidden bg-surface-container-low shadow-sm opacity-70 hover:opacity-100 transition-all p-1" onclick="switchMedia(this, 'white')" type="button">
+<img alt="Vista blanco nieve" class="w-full h-full object-cover rounded" data-alt="Pure arctic white noise cancelling wireless premium headphones resting horizontally on pristine white podium, architectural shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhE4pDV7BvWMIFJPE8y8gZzT6kU1wKfgPgsy3DuFzkh4DGk8sfij8KAbz6wZ7Fx4qi6laX-mQMbbuSNPDw0hBSHYOEUBviC8ZNvOUUvV-3ZbqrlmqLXtKtz3crrtZ-E5hkSmpMwlfDqiH73jmWPeHX3zDzwH9gUtqYMCUov38MG6SXBKTKivK8hoEXy5RSn4G-KSNSE6NGt47ZuzA4cNpy_VWve9esgZeMLoq4ov-xUvQLVfAkgScn"/>
+</button>
+<button class="gallery-thumb-btn relative aspect-square rounded-lg overflow-hidden bg-surface-container-low shadow-sm opacity-70 hover:opacity-100 transition-all p-1" onclick="switchMedia(this, 'blue')" type="button">
+<img alt="Vista azul índigo" class="w-full h-full object-cover rounded" data-alt="Deep indigo blue metallic finish ergonomic wireless headset with memory foam ear cushions angled in high-end tech presentation." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIn4vRcMUeWJ16pce2Leug9NBHzW3h0NAN_m_mcj6rz5xMcGeevL3oG5qeRsl58RwMOGTx3ulhWhGPyCXbJYVGU5vXhORA6xXJpcNT1DqZ5r2UXIoG-DBj-wh8OZ6CkdrvGJyBQQ09Gdm_GGO8vznLJQupbcmysxQK5iZebFdrcp5x-1AmUdcLtbDu2-tOEhOB7ElNMsnBoI1ikMR19TPeWGJ_3ALmyOpuo-5EiVWOgU6_mgh0h8xR"/>
+</button>
+<button class="gallery-thumb-btn relative aspect-square rounded-lg overflow-hidden bg-surface-container-low shadow-sm opacity-70 hover:opacity-100 transition-all p-1" onclick="switchMedia(this, 'case')" type="button">
+<img alt="Estuche y accesorios incluidos" class="w-full h-full object-cover rounded" data-alt="Protective hardshell carry case and fast-charging gold-plated USB-C braided cables laid out in neat modern tech EDC arrangement." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnPoRnC-gWUP0cNTJa2ymIlVoKy9FUSmgAnbe3ZDR6ZKSncJkMKL6erMsPh2NnA0sChJ1GEp63gHw2MftZH9g864Xg8CMwlO1dwUqxc8xwNiOG0cF6d2VWACziJnhOJmTmxrRFIQQVYRGK-LJ3AWJwcIMZRebGhsweflXt5L_YT4tm9Bb110Y9BSdRHM-t5lTf8GGhfzGHV-LISUHk_fFU6lbyZs7reGLS3qB0d1QIx1JOYtCqefU3"/>
+</button>
+</div>
+<!-- Trust Signals Banner Strip -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-space-md">
+<div class="bg-surface-container-lowest p-space-sm rounded-lg shadow-sm flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-secondary-container text-[20px]">local_shipping</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-bold">Envío Gratis</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cobertura nacional 24-48h</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-lg shadow-sm flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-primary-fixed text-[20px]">verified_user</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-bold">Garantía 30 Días</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Reemplazo directo de fábrica</p>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-lg shadow-sm flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-tertiary-fixed text-[20px]">security</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-bold">Pago 100% Blindado</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Certificación PCI-DSS</p>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT: Transactional & Technical Panel (5 cols) -->
+<div class="lg:col-span-5 flex flex-col gap-space-md bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<!-- Header Info Lockup -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-widest">NovaAudio Labs</span>
+<span class="font-label-sm text-label-sm text-outline font-mono">SKU: TECH-ANC-01</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface font-extrabold tracking-tight">
+            Auriculares Inalámbricos Pro ANC
+          </h1>
+<!-- Rating & Social Proof Row -->
+<div class="flex items-center gap-2 pt-1">
+<div aria-label="Calificación 4.8 estrellas de 5" class="flex items-center text-tertiary-container">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-bold">4.8</span>
+<span class="text-outline text-xs">/</span>
+<a class="font-label-sm text-label-sm text-primary underline underline-offset-2 hover:text-primary-container" href="#tab-reviews" onclick="activateTab('reviews')">
+              128 reseñas verificadas
+            </a>
+</div>
+</div>
+<!-- Pricing Architecture & Multi-currency Tier -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-2">
+<div class="flex items-baseline gap-space-sm flex-wrap">
+<span class="font-display text-[40px] leading-tight text-on-surface font-extrabold" id="primary-price-val">$69.00</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-bold uppercase">USD</span>
+<span class="font-body-md text-body-md text-outline line-through">$89.00 USD</span>
+<span class="bg-secondary-container text-on-secondary-container px-2 py-0.5 rounded text-xs font-bold uppercase ml-auto">
+              Ahorras $20.00
+            </span>
+</div>
+<!-- Currency Auto-conversion Equivalence -->
+<div class="flex flex-wrap items-center justify-between text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span>Impuestos (IVA 19%) incluidos</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold flex items-center gap-1" id="multi-currency-estimate">
+<span class="material-symbols-outlined text-[14px]">sync_alt</span>
+              Aprox: 275.000 COP / 63,50 EUR
+            </span>
+</div>
+</div>
+<!-- Live Stock & Logistics Barometer -->
+<div class="p-space-sm rounded-lg bg-surface-container flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="relative flex h-3 w-3">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-3 w-3 bg-secondary"></span>
+</span>
+<span class="font-label-md text-label-md text-on-surface font-bold">
+                14 unidades en stock inmediato
+              </span>
+</div>
+<span class="font-label-sm text-label-sm text-on-secondary-fixed-variant bg-secondary-fixed px-2 py-0.5 rounded font-bold">
+              Bodega Central
+            </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant pl-5">
+            Ordena dentro de las próximas <strong class="text-on-surface">3h 24m</strong> para recibir despacho prioritario en el ciclo de hoy.
+          </p>
+</div>
+<!-- Variant Selector: Color -->
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md text-on-surface font-bold">Color del Acabado:</span>
+<span class="font-label-md text-label-md text-primary font-semibold" id="selected-color-name">Negro Grafito</span>
+</div>
+<div aria-label="Seleccionar Color" class="flex items-center gap-space-sm" role="radiogroup">
+<button aria-checked="true" class="variant-color-btn flex items-center gap-2 px-3 py-2 rounded-lg bg-surface-container-high ring-2 ring-primary transition-all text-left" onclick="selectColorVariant(this, 'Negro Grafito', 'graphite')" role="radio" type="button">
+<span class="w-4 h-4 rounded-full bg-slate-800 shadow-inner"></span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">Grafito</span>
+</button>
+<button aria-checked="false" class="variant-color-btn flex items-center gap-2 px-3 py-2 rounded-lg bg-surface-container-low hover:bg-surface-container transition-all text-left" onclick="selectColorVariant(this, 'Blanco Nieve', 'white')" role="radio" type="button">
+<span class="w-4 h-4 rounded-full bg-slate-100 shadow-inner"></span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">Nieve</span>
+</button>
+<button aria-checked="false" class="variant-color-btn flex items-center gap-2 px-3 py-2 rounded-lg bg-surface-container-low hover:bg-surface-container transition-all text-left" onclick="selectColorVariant(this, 'Azul Índigo', 'blue')" role="radio" type="button">
+<span class="w-4 h-4 rounded-full bg-blue-900 shadow-inner"></span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">Índigo</span>
+</button>
+</div>
+</div>
+<!-- Quantity & Transactional CTAs -->
+<div class="flex flex-col gap-space-sm pt-2">
+<div class="flex items-center gap-space-md">
+<!-- Quantity Counter Module -->
+<div class="flex items-center bg-surface-container-low rounded-lg p-1 shrink-0">
+<button aria-label="Disminuir cantidad" class="w-10 h-10 flex items-center justify-center rounded bg-surface-container-lowest text-on-surface hover:bg-surface-container-high transition-colors disabled:opacity-30" id="qty-minus" onclick="alterQuantity(-1)" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<span class="w-12 text-center font-headline-sm text-headline-sm text-on-surface font-bold select-none" id="qty-val">1</span>
+<button aria-label="Aumentar cantidad" class="w-10 h-10 flex items-center justify-center rounded bg-surface-container-lowest text-on-surface hover:bg-surface-container-high transition-colors" id="qty-plus" onclick="alterQuantity(1)" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+<!-- Primary Cart CTA -->
+<button class="flex-1 h-12 bg-primary text-on-primary font-label-md text-label-md rounded-lg flex items-center justify-center gap-2 hover:bg-primary-container transition-all shadow-md active:scale-95" id="add-to-cart-btn" onclick="handleAddToCart()" type="button">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+<span>Agregar al Carrito</span>
+</button>
+</div>
+<!-- Direct Express Checkout Secondary CTA -->
+<button class="w-full h-12 bg-secondary text-on-secondary font-label-md text-label-md font-bold rounded-lg flex items-center justify-center gap-2 hover:bg-on-secondary-container transition-all shadow-sm active:scale-95" type="button">
+<span class="material-symbols-outlined text-[20px]">bolt</span>
+<span>Comprar Ahora (Checkout Directo)</span>
+</button>
+<!-- WhatsApp Expert Consultation Hook -->
+<a class="flex items-center justify-center gap-2 py-2 text-on-secondary-fixed-variant hover:underline font-label-sm text-label-sm transition-all" href="https://wa.me/?text=Hola%2C%20tengo%20consultas%20técnicas%20sobre%20los%20Auriculares%20Pro%20ANC%20(SKU:%20TECH-ANC-01)" rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[18px] text-secondary">chat</span>
+<span>¿Dudas sobre compatibilidad? Habla con un especialista NovaStore</span>
+</a>
+</div>
+</div>
+</div>
+<!-- TABBED SECTION: Specifications, Shipping, Reviews, Warranty -->
+<div class="mt-space-xl bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<!-- Tab Navigation Headers -->
+<div class="flex border-b border-transparent bg-surface-container-low px-gutter overflow-x-auto gap-2">
+<button class="tab-nav-btn py-space-md px-space-md font-label-md text-label-md font-bold border-b-2 text-primary border-primary transition-all whitespace-nowrap" id="tab-btn-specs" onclick="activateTab('specs')">
+          Especificaciones Técnicas
+        </button>
+<button class="tab-nav-btn py-space-md px-space-md font-label-md text-label-md font-bold border-b-2 text-on-surface-variant border-transparent hover:text-on-surface transition-all whitespace-nowrap" id="tab-btn-shipping" onclick="activateTab('shipping')">
+          Envíos &amp; Devoluciones
+        </button>
+<button class="tab-nav-btn py-space-md px-space-md font-label-md text-label-md font-bold border-b-2 text-on-surface-variant border-transparent hover:text-on-surface transition-all whitespace-nowrap" id="tab-btn-reviews" onclick="activateTab('reviews')">
+          Reseñas de Clientes (128)
+        </button>
+<button class="tab-nav-btn py-space-md px-space-md font-label-md text-label-md font-bold border-b-2 text-on-surface-variant border-transparent hover:text-on-surface transition-all whitespace-nowrap" id="tab-btn-warranty" onclick="activateTab('warranty')">
+          Garantía Legal &amp; Respaldo
+        </button>
+</div>
+<!-- Tab Panels Content Container -->
+<div class="p-gutter md:p-space-xl">
+<!-- Panel 1: Specs -->
+<div class="tab-panel-node" id="tab-content-specs">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<div class="flex flex-col gap-space-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Acústica &amp; Cancelación de Ruido</h3>
+<dl class="flex flex-col gap-2 font-body-sm text-body-sm">
+<div class="flex justify-between py-2 bg-surface-container-low px-3 rounded">
+<dt class="text-on-surface-variant font-medium">Tecnología ANC:</dt>
+<dd class="text-on-surface font-bold">Híbrida Activa (-38dB reducción)</dd>
+</div>
+<div class="flex justify-between py-2 px-3 rounded">
+<dt class="text-on-surface-variant font-medium">Drivers:</dt>
+<dd class="text-on-surface font-bold">40mm Dinámicos de Titanio</dd>
+</div>
+<div class="flex justify-between py-2 bg-surface-container-low px-3 rounded">
+<dt class="text-on-surface-variant font-medium">Rango de Frecuencia:</dt>
+<dd class="text-on-surface font-bold">20 Hz - 20.000 Hz</dd>
+</div>
+<div class="flex justify-between py-2 px-3 rounded">
+<dt class="text-on-surface-variant font-medium">Códecs Soportados:</dt>
+<dd class="text-on-surface font-bold">AAC, SBC, aptX Adaptive</dd>
+</div>
+</dl>
+</div>
+<div class="flex flex-col gap-space-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Conectividad &amp; Batería</h3>
+<dl class="flex flex-col gap-2 font-body-sm text-body-sm">
+<div class="flex justify-between py-2 bg-surface-container-low px-3 rounded">
+<dt class="text-on-surface-variant font-medium">Versión Bluetooth:</dt>
+<dd class="text-on-surface font-bold">5.3 Multipunto (2 equipos a la vez)</dd>
+</div>
+<div class="flex justify-between py-2 px-3 rounded">
+<dt class="text-on-surface-variant font-medium">Autonomía Total:</dt>
+<dd class="text-on-surface font-bold">Hasta 45h (32h con ANC activado)</dd>
+</div>
+<div class="flex justify-between py-2 bg-surface-container-low px-3 rounded">
+<dt class="text-on-surface-variant font-medium">Carga Rápida USB-C:</dt>
+<dd class="text-on-surface font-bold">10 min de carga = 4h de reproducción</dd>
+</div>
+<div class="flex justify-between py-2 px-3 rounded">
+<dt class="text-on-surface-variant font-medium">Peso:</dt>
+<dd class="text-on-surface font-bold">248 gramos ergonómicos</dd>
+</div>
+</dl>
+</div>
+</div>
+</div>
+<!-- Panel 2: Shipping -->
+<div class="tab-panel-node hidden" id="tab-content-shipping">
+<div class="max-w-3xl flex flex-col gap-space-md">
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-secondary-container">local_shipping</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Tiempos de Tránsito Nacional</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                  Envíos despachados vía red logística express certificada. Ciudades principales reciben entre 24 y 48 horas hábiles. Regiones periféricas de 3 a 5 días con tracking en vivo en tiempo real (#PED).
+                </p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-primary-fixed">assignment_return</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Política de Retorno Sin Complicaciones</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                  Dispones de 30 días calendario desde la entrega para probar el producto. Si no satisface tu estándar acústico o comodidad ergonómica, generamos la guía prepagada de devolución sin preguntas.
+                </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Panel 3: Reviews -->
+<div class="tab-panel-node hidden" id="tab-content-reviews">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- Review Summary Stats -->
+<div class="lg:col-span-4 bg-surface-container-low p-space-md rounded-xl flex flex-col items-center justify-center text-center gap-2">
+<span class="font-display text-[56px] leading-tight text-on-surface font-black">4.8</span>
+<div class="flex items-center text-tertiary-container">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+<p class="font-label-md text-label-md text-on-surface font-bold">96% recomendaría este producto</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Basado en 128 valoraciones con recibo verificado</p>
+</div>
+<!-- Review Cards Stream -->
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<div class="bg-surface p-space-md rounded-lg shadow-sm flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="font-label-md text-label-md text-on-surface font-bold">Mateo S.</span>
+<span class="bg-secondary-container text-on-secondary-container text-[10px] px-2 py-0.5 rounded-full font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">check_circle</span> Compra verificada
+                    </span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Hace 3 días</span>
+</div>
+<div class="flex text-tertiary-container">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                  La cancelación activa de ruido me dejó sorprendido para este rango de precio. Los uso 8 horas seguidas de home office y las almohadillas no ejercen presión excesiva. Muy recomendados.
+                </p>
+</div>
+<div class="bg-surface p-space-md rounded-lg shadow-sm flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="font-label-md text-label-md text-on-surface font-bold">Valentina R.</span>
+<span class="bg-secondary-container text-on-secondary-container text-[10px] px-2 py-0.5 rounded-full font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">check_circle</span> Compra verificada
+                    </span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Hace 1 semana</span>
+</div>
+<div class="flex text-tertiary-container">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                  El color Blanco Nieve es espectacular en vivo. La conexión multipunto entre mi MacBook y el teléfono funciona al instante sin tener que desvincular.
+                </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Panel 4: Warranty -->
+<div class="tab-panel-node hidden" id="tab-content-warranty">
+<div class="flex flex-col gap-space-md max-w-3xl">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Garantía Oficial Directa NovaStore</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Todos los equipos de audio comercializados cuentan con respaldo legal de 12 meses frente a fallas electromecánicas o de degradación anormal de celdas de batería, sumado a los 30 días de cambio directo NovaStore.
+            </p>
+<div class="bg-surface-container-low p-space-md rounded-lg flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[28px]">verified</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+                Incluye registro de número de serie en la base de datos para soporte prioritario sin necesidad de guardar la factura física.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- BUNDLE MODULE: Frequently Bought Together -->
+<div class="mt-space-xl bg-surface-container-lowest p-gutter md:p-space-xl rounded-xl shadow-sm">
+<div class="flex flex-col gap-1 mb-space-lg">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-widest">Optimiza tu Experiencia</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold">Frecuentemente Comprados Juntos</h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<!-- Products Trio / Duo with plus signs -->
+<div class="lg:col-span-8 flex flex-col sm:flex-row items-center gap-4">
+<!-- Item A (Current) -->
+<div class="w-full sm:w-1/3 bg-surface-container-low p-3 rounded-xl flex flex-col gap-2">
+<div class="aspect-square bg-surface-container-lowest rounded-lg overflow-hidden">
+<img alt="Auriculares Pro ANC" class="w-full h-full object-cover" data-alt="Matte dark graphite wireless noise cancelling over ear headphones isolated on minimalist light grey background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0u7o3BPzjkmeepnT_NNgo8GpWN79FKQ9m2JQ6rOhaNPjhIBGLpCpiBhUiWUa56cyYC7bNHHfT6v3UeDppyamvV8I2EFdpUWJaPCwW7RgOdmFidVmV9YvwGa8EU8Ymz6OD-p2qt9RJTa4qkk6yS5rNo-s_w1pbKYdnU2t6YJH2uWS5OZGQ7T4Bm2uUkKRzBxCfI1wWfJxNz9rU7k_IjNCB0y18Ykh2X2TrboJHzSTh1ZnFfLXN47bW"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Este Producto</span>
+<p class="font-label-md text-label-md text-on-surface font-bold truncate">Auriculares Pro ANC</p>
+<p class="font-price-md text-price-md text-on-surface font-bold">$69.00 USD</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-[24px] text-outline shrink-0">add</span>
+<!-- Item B -->
+<div class="w-full sm:w-1/3 bg-surface-container-low p-3 rounded-xl flex flex-col gap-2 relative">
+<label class="absolute top-2 right-2 cursor-pointer z-10">
+<input checked="" class="w-5 h-5 accent-primary rounded cursor-pointer" id="bundle-item-1" onchange="updateBundleTotal()" type="checkbox"/>
+</label>
+<div class="aspect-square bg-surface-container-lowest rounded-lg overflow-hidden">
+<img alt="Soporte de Aluminio Premium" class="w-full h-full object-cover" data-alt="Modern anodized aluminum headphone desk stand with silicone cable channel and weighted base." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdVbSRBEma8Beydj1w8GXmQGGaQQmv23p6ez80CF8kxjcZFbpKJ9B-qsbzWq7GfvfGi2aVQywIB26uHnAS5XA78hH1rj2KKTDPy-OtdZuNXT-ne2A3oEXMSS3j985O5aUt0O55k-yzZVduurbY3AfmWNjQsYgaWMI5G3HlqTzsZiqJpZx0hU20q0rV0yoJOOBx0-GMqaEwLnZeo8mloSr4ZWo3Mb8H84O96CGp-mX45iT6UqnjxB5L"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Accesorio</span>
+<p class="font-label-md text-label-md text-on-surface font-bold truncate">Soporte Metálico Desk Stand</p>
+<p class="font-price-md text-price-md text-on-surface font-bold">$22.00 USD</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-[24px] text-outline shrink-0">add</span>
+<!-- Item C -->
+<div class="w-full sm:w-1/3 bg-surface-container-low p-3 rounded-xl flex flex-col gap-2 relative">
+<label class="absolute top-2 right-2 cursor-pointer z-10">
+<input checked="" class="w-5 h-5 accent-primary rounded cursor-pointer" id="bundle-item-2" onchange="updateBundleTotal()" type="checkbox"/>
+</label>
+<div class="aspect-square bg-surface-container-lowest rounded-lg overflow-hidden">
+<img alt="Cargador Rápido GaN 30W" class="w-full h-full object-cover" data-alt="Compact black 30W GaN fast charger wall plug with dual USB-C ports on clean background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiAYeTI_f9MttMW0PAlBjCzsenp6iR6Whdj3ZWQaWqGE0ncsy3fgUmqliy1BTRtwCFd8p-LEqB6ldOHvbHcz2QhZB6jKzfog4a27_Q50a2xahwNtKLhOobEYQrps-lv4wVD1TyxryEMqYqZiEvRVBm0JSmTHdyLzM2fUA4ilFRnaIgbGvZouzcFiRJpHpryP0cbcr7kypdf7lcy9Nt50hiOyVBQAZPzOMw-7XQqX7GtaEcmAY2B1UG"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Energía</span>
+<p class="font-label-md text-label-md text-on-surface font-bold truncate">Cargador Rápido GaN 30W</p>
+<p class="font-price-md text-price-md text-on-surface font-bold">$18.00 USD</p>
+</div>
+</div>
+</div>
+<!-- Bundle Checkout Box -->
+<div class="lg:col-span-4 bg-surface-container p-space-md rounded-xl flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<span class="bg-secondary text-on-secondary px-2 py-0.5 rounded font-label-sm text-[11px] font-bold uppercase">Ahorro Combo -15%</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Precio total del combo:</span>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-on-surface font-black" id="bundle-total-price">$92.65 USD</span>
+<span class="font-body-md text-body-md text-outline line-through" id="bundle-original-price">$109.00 USD</span>
+</div>
+</div>
+<p class="font-label-sm text-label-sm text-secondary font-semibold" id="bundle-savings-desc">
+            Ahorras $16.35 USD comprando el kit completo
+          </p>
+<button class="w-full h-11 bg-primary text-on-primary font-label-md text-label-md font-bold rounded-lg flex items-center justify-center gap-2 hover:bg-primary-container transition-all shadow-sm active:scale-95" onclick="addBundleToCart()" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>Añadir Combo al Carrito</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Micro Interaction Script for Tab Navigation, Variants & Bundle Calculator -->
+<script>
+    // Tab switcher logic
+    function activateTab(tabKey) {
+      const keys = ['specs', 'shipping', 'reviews', 'warranty'];
+      keys.forEach(k => {
+        const btn = document.getElementById('tab-btn-' + k);
+        const panel = document.getElementById('tab-content-' + k);
+        if (k === tabKey) {
+          btn.classList.add('text-primary', 'border-primary');
+          btn.classList.remove('text-on-surface-variant', 'border-transparent');
+          panel.classList.remove('hidden');
+        } else {
+          btn.classList.remove('text-primary', 'border-primary');
+          btn.classList.add('text-on-surface-variant', 'border-transparent');
+          panel.classList.add('hidden');
+        }
+      });
+    }
+
+    // Color variant handler
+    function selectColorVariant(el, name, code) {
+      document.getElementById('selected-color-name').innerText = name;
+      
+      const allBtns = document.querySelectorAll('.variant-color-btn');
+      allBtns.forEach(btn => {
+        btn.classList.remove('bg-surface-container-high', 'ring-2', 'ring-primary');
+        btn.classList.add('bg-surface-container-low');
+        btn.setAttribute('aria-checked', 'false');
+      });
+
+      el.classList.remove('bg-surface-container-low');
+      el.classList.add('bg-surface-container-high', 'ring-2', 'ring-primary');
+      el.setAttribute('aria-checked', 'true');
+    }
+
+    // Image gallery swap
+    function switchMedia(el, code) {
+      const allThumbs = document.querySelectorAll('.gallery-thumb-btn');
+      allThumbs.forEach(t => {
+        t.classList.remove('ring-2', 'ring-primary', 'opacity-100');
+        t.classList.add('opacity-70');
+      });
+      el.classList.remove('opacity-70');
+      el.classList.add('ring-2', 'ring-primary', 'opacity-100');
+    }
+
+    // Quantity adjuster
+    let currentQty = 1;
+    function alterQuantity(delta) {
+      currentQty = Math.max(1, Math.min(14, currentQty + delta));
+      document.getElementById('qty-val').innerText = currentQty;
+      document.getElementById('qty-minus').disabled = currentQty === 1;
+    }
+
+    // Dynamic bundle calculation
+    function updateBundleTotal() {
+      const basePrice = 69.00;
+      const item1 = document.getElementById('bundle-item-1').checked ? 22.00 : 0;
+      const item2 = document.getElementById('bundle-item-2').checked ? 18.00 : 0;
+      
+      const rawTotal = basePrice + item1 + item2;
+      const hasComboDiscount = (item1 > 0 && item2 > 0);
+      const finalPrice = hasComboDiscount ? (rawTotal * 0.85) : rawTotal;
+      const savings = rawTotal - finalPrice;
+
+      document.getElementById('bundle-total-price').innerText = '$' + finalPrice.toFixed(2) + ' USD';
+      
+      const origPriceEl = document.getElementById('bundle-original-price');
+      const savingsDescEl = document.getElementById('bundle-savings-desc');
+
+      if (hasComboDiscount) {
+        origPriceEl.innerText = '$' + rawTotal.toFixed(2) + ' USD';
+        origPriceEl.classList.remove('hidden');
+        savingsDescEl.innerText = 'Ahorras $' + savings.toFixed(2) + ' USD comprando el kit completo';
+        savingsDescEl.classList.remove('hidden');
+      } else {
+        origPriceEl.classList.add('hidden');
+        savingsDescEl.classList.add('hidden');
+      }
+    }
+
+    // Interactive Cart feedback toast
+    function handleAddToCart() {
+      const btn = document.getElementById('add-to-cart-btn');
+      const originalHTML = btn.innerHTML;
+      btn.innerHTML = '<span class="material-symbols-outlined text-[20px]">check</span><span>¡Añadido al Carrito!</span>';
+      btn.classList.add('bg-secondary');
+      setTimeout(() => {
+        btn.innerHTML = originalHTML;
+        btn.classList.remove('bg-secondary');
+      }, 2000);
+    }
+
+    function addBundleToCart() {
+      alert('Combo completo agregado al carrito con -15% de descuento directo.');
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl pt-space-xl pb-space-lg"><div class="max-w-7xl mx-auto px-gutter"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl pb-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-primary font-bold">NovaStore</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Plataforma transaccional de retail multi-categoría líder en seguridad, despacho exprés y respaldo de garantías internacionales.</p><div class="flex items-center gap-2 mt-2"><div class="flex items-center gap-1.5 bg-surface-container-lowest px-3 py-1.5 rounded-lg"><span class="material-symbols-outlined text-secondary text-[20px]">verified_user</span><span class="font-label-sm text-label-sm text-on-surface font-bold">SSL 256-bit Encriptado</span></div></div></div><div class="flex flex-col gap-space-xs"><span class="font-headline-sm text-[16px] text-on-surface font-bold mb-1">Marco Legal &amp; Transparencia</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="terminos-y-condiciones" href="#">Términos de Servicio</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="privacidad-gdpr" href="#">Privacidad y Derechos GDPR</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="garantias-y-devoluciones" href="#">Garantías y Devoluciones</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="politicas-de-envio" href="#">Políticas de Despacho Logístico</a></div><div class="flex flex-col gap-space-xs"><span class="font-headline-sm text-[16px] text-on-surface font-bold mb-1">Centro de Soporte 24/7</span><a class="flex items-center gap-2 font-body-sm text-body-sm text-secondary hover:text-secondary-fixed-variant transition-colors" href="https://wa.me/" rel="noopener" target="_blank"><span class="material-symbols-outlined text-[18px]">chat</span><span>Soporte WhatsApp Exprés</span></a><a class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="soporte-tecnico" href="#"><span class="material-symbols-outlined text-[18px]">support_agent</span><span>Mesa de Ayuda Técnica</span></a><a class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="rastrear-pedido" href="#"><span class="material-symbols-outlined text-[18px]">track_changes</span><span>Localizador de Órdenes (#PED)</span></a></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-[16px] text-on-surface font-bold">Medios de Pago Confiables</span><p class="font-body-sm text-body-sm text-on-surface-variant">Aceptamos las principales redes con liquidación segura instantánea.</p><div class="flex flex-wrap gap-2"><span class="bg-surface-container-lowest px-2.5 py-1 rounded text-on-surface font-label-sm text-label-sm font-bold">VISA</span><span class="bg-surface-container-lowest px-2.5 py-1 rounded text-on-surface font-label-sm text-label-sm font-bold">Mastercard</span><span class="bg-surface-container-lowest px-2.5 py-1 rounded text-on-surface font-label-sm text-label-sm font-bold">Amex</span><span class="bg-surface-container-lowest px-2.5 py-1 rounded text-on-surface font-label-sm text-label-sm font-bold">PayPal</span><span class="bg-surface-container-lowest px-2.5 py-1 rounded text-on-surface font-label-sm text-label-sm font-bold">PSE / Wire</span></div></div></div><div class="pt-space-md mt-space-md flex flex-col md:flex-row items-center justify-between gap-4"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2024 NovaStore Inc. Todos los derechos reservados.</p><div class="flex items-center gap-space-md"><span class="font-label-sm text-label-sm text-on-surface-variant">Plataforma Comercial Certificada ISO-27001</span></div></div></div></footer></body></html>
